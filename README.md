@@ -13,7 +13,7 @@ Vue.use(VueMarkImage);
 
 ```vue
 <template>
-  <VueMarkImage ref="vueMarkRef" :imgUrl="imgUrl" :markList="markList" @on-change="onChange" @click="clickMark" />
+  <VueMarkImage ref="vueMarkRef" :imgUrl="imgUrl" :markList="markList" @change="changeMark" @click="clickMark" />
 </template>
 <script>
   import { VueMarkImage } from 'VueMarkImage';
